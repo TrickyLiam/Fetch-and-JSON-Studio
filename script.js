@@ -5,8 +5,7 @@ window.addEventListener("load", function() {
         // console.log(data);
         const container = document.getElementById("container");
         // const astronaut = document.querySelector("astronaut");
-        // const bio = document.querySelector("bio");
-    
+        
         data.forEach(astronaut => {
             // console.log(astronaut);        
             // console.log(astronaut.firstName);
@@ -27,7 +26,9 @@ window.addEventListener("load", function() {
             `;
         });
     
-        // container.innerHTML = `<h3>${data[0].firstName}</h3>`;
 
-    }); 
+
+    });
+
+   
 });
